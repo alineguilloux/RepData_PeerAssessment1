@@ -15,7 +15,8 @@ The data was downloaded from the [link](https://d396qusza40orc.cloudfront.net/re
 So, lets start importing the database in csv format and changing the date form character to Date type variable.  
 
 ```{r}
-activity <- read.csv("activity.csv", as.is = TRUE, na.strings = c("NA"))
+setwd("~/Documents/DataScienceCoursera/5Reproducible Research")
+activity<-read.csv("activity.csv", as.is = TRUE)
 activity$date <- as.Date(activity$date, "%Y-%m-%d")
 ```
 
