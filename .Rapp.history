@@ -1,0 +1,68 @@
+sudo easy_install pysal
+$ python setup.py install
+install.packages("RMySQL")
+library(RMySQL)
+library(httr)
+myapp <- oauth_app("github",
+key = "7a1d5b72314ca9c59330",
+secret = "b31dc61ce0da36f98658f92974f5c89b3ca84601")
+))
+myapp <- oauth_app("github",
+key = "7a1d5b72314ca9c59330",
+secret = "b31dc61ce0da36f98658f92974f5c89b3ca84601")
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+myapp <- oauth_app("github",
+key = "7a1d5b72314ca9c59330",
+secret = "b31dc61ce0da36f98658f92974f5c89b3ca84601")
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+myapp <- oauth_app("github",#
+  key = "7a1d5b72314ca9c59330",#
+  secret = "b31dc61ce0da36f98658f92974f5c89b3ca84601")
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+library(httpuv)
+install.packages(httpuv)
+install.packages("httpuv")
+library(httpuv)
+myapp <- oauth_app("github",#
+  key = "7a1d5b72314ca9c59330",#
+  secret = "b31dc61ce0da36f98658f92974f5c89b3ca84601")#
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+gtoken <- config(token = github_token)
+req <- GET("https://api.github.com/users/jtleek/repos", gtoken)
+stop_for_status(req)
+content(req)
+messy_stuff<-content(req)
+library(JSON)
+library(JSONlite)
+library(jsonlite)
+log<-fromJSON(toJSON(messy_stuff))
+log
+names(log)
+log<-toJSON(messy_stuff))
+log<-toJSON(messy_stuff)
+log2<-fromJSON(log)
+names(log2)
+log2
+log2$name
+names(log2)
+log2[[,c(2, 45)]]
+log2[[c(2, 45),]]
+log2[[c(2, 45)]]
+log2[c(2, 45)]
+log2[c(2, 45), 6]
+head(log2[c(2, 45)], 6)
+log<-toJSON(messy_stuff, pretty=TRUE)
+log2<-fromJSON(log)
+names(log2)
+head(log2[c(2, 45)], 6)
+head(log2[c(2, 45)], 5:6)
+head(log2[c(2, 45)], c(5:6))
+hdgfjgvjhv
+setwd("~/Documents/DataScienceCoursera/5Reproducible Research/RepData_PeerAssessment1")
+knit2html("PA1_template.Rmd" )
+library(knitr)
+knit2html("PA1_template.Rmd" )
+rmarkdown::render("PA1_template.Rmd")
+library(rmarkdown)
+render("PA1_template.Rmd")
+library(pandoc)
